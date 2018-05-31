@@ -39,4 +39,4 @@ class nameAgeHandler extends TransactionHandler {
         })
     }
 }
-
+module.exports=nameAgeHandler
