@@ -35,7 +35,7 @@ class nameAgeHandler extends TransactionHandler {
             if (!age) {
                 throw new InvalidTransaction('Age is required')
             }
-            console.log('Name: ${name}, \n Age: ${age}')
+            console.log('Name: '+ name + '\n Age: '+ age)
         })
     }
 }
